@@ -13,8 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       # Устанавливаем Node.js
       - uses: actions/setup-node@v1
-      # Ставим зависимости
-      - run: npm install
       # Запускаем линтер
       - run: npm run lint
       # Запускаем тесты
